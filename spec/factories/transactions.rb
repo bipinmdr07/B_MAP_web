@@ -3,6 +3,6 @@ FactoryGirl.define do
     date "2017-01-23"
     amount "9.99"
     cash_type "MyString"
-    capitals nil
+    capital nil
   end
 end

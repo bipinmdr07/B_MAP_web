@@ -62,7 +62,6 @@ class UsersController < ApplicationController
     curr_u = current_user
     recycle = RecycleBin.new(corr_id: params[:id], table_name: "users", user_id: curr_u.id)
     recycle.save
-    debugger
 
     User.find(params[:id]).destroy
     flash[:success] = 'User deleted'
