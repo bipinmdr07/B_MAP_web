@@ -1,6 +1,6 @@
 # controller for handeling payable and receivable data
 class CapitalsController < ApplicationController
-  before_filter :set_capital_type, except: [:destroy, :edit, :update]
+  before_action :set_capital_type, except: [:destroy, :edit, :update]
   # before_filter :chk_capital_uri
 
   def index
