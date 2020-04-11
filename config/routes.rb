@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  default_url_options :host => "http://localhost:3000"
+
   resources :account, only: [:new, :create, :edit, :update, :destroy]
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
@@ -15,14 +17,14 @@ Rails.application.routes.draw do
   # for api
   namespace :api do
     namespace :v1, defaults: { format: :json} do
-        # these routes are used for getting newly created rows in tables
-        get 'new/users', to: 'users#get_new_created_users'
-        get 'new/capitals', to: 'capitals#get_new_created_capitals'
-        get 'new/transactions', to: 'transactions#get_new_created_transactions'
-        get 'updated/accounts', to: 'account#get_updated_accounts'
-        get 'updated/capitals', to: 'capitals#get_updated_capitals'
-        get 'updated/users', to: 'users#get_updated_users'
-        resources :recycle_bin, only: [:index, :destroy]
+      # these routes are used for getting newly created rows in tables
+      get 'new/users', to: 'users#get_new_created_users'
+      get 'new/capitals', to: 'capitals#get_new_created_capitals'
+      get 'new/transactions', to: 'transactions#get_new_created_transactions'
+      get 'updated/accounts', to: 'account#get_updated_accounts'
+      get 'updated/capitals', to: 'capitals#get_updated_capitals'
+      get 'updated/users', to: 'users#get_updated_users'
+      resources :recycle_bin, only: [:index, :destroy]
       post 'authenticate', to: 'authentication#authenticate'
       resources :sessions, only: [:create, :destroy]
       resources :users, only: [:index, :create, :show, :update, :destroy,]
