@@ -1,3 +1,3 @@
-class Account < ActiveRecord::Base
+class Account < ApplicationRecord
   belongs_to :user
 end

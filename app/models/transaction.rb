@@ -1,5 +1,5 @@
 # model for handeling the transaction information
-class Transaction < ActiveRecord::Base
+class Transaction < ApplicationRecord
   belongs_to :capital
   validates :cash_type, presence: true
   # validates :amount, presence: true
