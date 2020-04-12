@@ -1,2 +1,2 @@
-class RecycleBin < ActiveRecord::Base
+class RecycleBin < ApplicationRecord
 end
