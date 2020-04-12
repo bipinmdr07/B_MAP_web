@@ -1,4 +1,4 @@
-class AddAdditionAndDeductionToAccounts < ActiveRecord::Migration[5.2]
+class AddAdditionAndDeductionToAccounts < ActiveRecord::Migration[6.0]
   def change
     add_column :accounts, :addition_holiday, :decimal, precision: 8, scale: 2, default: 0
     add_column :accounts, :addition_overtime, :decimal, precision: 8, scale: 2, default: 0

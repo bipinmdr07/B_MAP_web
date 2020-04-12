@@ -1,4 +1,4 @@
-class CreateTransactions < ActiveRecord::Migration[5.2]
+class CreateTransactions < ActiveRecord::Migration[6.0]
   def change
     create_table :transactions do |t|
       t.date :date, default: Date.today
