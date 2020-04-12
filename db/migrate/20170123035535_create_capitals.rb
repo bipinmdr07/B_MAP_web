@@ -1,4 +1,4 @@
-class CreateCapitals < ActiveRecord::Migration[5.2]
+class CreateCapitals < ActiveRecord::Migration[6.0]
   def change
     create_table :capitals do |t|
       t.string :name

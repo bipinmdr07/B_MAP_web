@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.0'
+gem 'rails', '~> 6.0.2'
 
 gem 'bootstrap-sass'
 gem 'sprockets'
@@ -29,7 +29,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', group: :doc
 
 
 # Use ActiveModel has_secure_password
@@ -40,6 +40,7 @@ gem 'pundit'
 gem 'jwt'
 gem 'simple_command'
 gem 'responders'
+gem 'bootsnap', require: false
 
 # Use Unicorn as the app server
 # gem 'unicorn'
