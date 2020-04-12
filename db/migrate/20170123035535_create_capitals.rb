@@ -1,5 +1,4 @@
-# migration file for handeling the financial related data
-class CreateCapitals < ActiveRecord::Migration
+class CreateCapitals < ActiveRecord::Migration[5.2]
   def change
     create_table :capitals do |t|
       t.string :name

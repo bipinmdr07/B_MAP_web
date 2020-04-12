@@ -1,4 +1,4 @@
-class CreateRecycleBins < ActiveRecord::Migration
+class CreateRecycleBins < ActiveRecord::Migration[5.2]
   def change
     create_table :recycle_bins do |t|
       t.string :table_name
