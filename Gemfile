@@ -9,6 +9,7 @@ gem 'sprockets'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'travis'
 
 # these gems are for users profile pic
 gem 'carrierwave'
