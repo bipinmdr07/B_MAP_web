@@ -1,4 +1,4 @@
-class AddNewCreatedAndUpdatedFieldToAllModels < ActiveRecord::Migration
+class AddNewCreatedAndUpdatedFieldToAllModels < ActiveRecord::Migration[5.2]
   def change
     add_column :users, :updated, :boolean, default: false
     add_column :users, :new_created, :boolean, default: true
