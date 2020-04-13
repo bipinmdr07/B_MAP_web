@@ -13,7 +13,6 @@ A web app to manage the financial records.
 sudo apt-get install -y ruby-mini-magick
 ```
 - GraphicsMagick
-- GraphicsMagick
 ```
 sudo apt-get install -y graphicsmagick
 ```
