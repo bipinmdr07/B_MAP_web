@@ -374,44 +374,44 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_hash_relation
-  active_model_serializers
-  bcrypt
-  bootsnap
-  bootstrap-sass
-  bootstrap-will_paginate
-  byebug
-  capybara
-  carrierwave
-  codecov
-  coffee-rails
-  cucumber-rails
-  database_cleaner
-  email_validator
-  factory_girl_rails
-  faker
-  guard-rspec
-  jbuilder
-  jquery-rails
-  jwt
-  mini_magick
+  active_hash_relation (= 1.4.1)
+  active_model_serializers (= 0.10.10)
+  bcrypt (= 3.1.13)
+  bootsnap (= 1.4.6)
+  bootstrap-sass (= 3.4.1)
+  bootstrap-will_paginate (= 1.0.0)
+  byebug (= 11.1.1)
+  capybara (= 3.32.1)
+  carrierwave (= 2.1.0)
+  codecov (= 0.1.16)
+  coffee-rails (= 5.0.0)
+  cucumber-rails (= 2.0.0)
+  database_cleaner (= 1.8.4)
+  email_validator (= 2.0.1)
+  factory_girl_rails (= 4.9.0)
+  faker (= 2.11.0)
+  guard-rspec (= 4.7.3)
+  jbuilder (= 2.10.0)
+  jquery-rails (= 4.3.5)
+  jwt (= 2.2.1)
+  mini_magick (= 4.10.1)
   pg
-  pundit
+  pundit (= 2.1.0)
   rails (~> 6.0.2)
-  responders
-  rspec-rails
-  sass-rails
-  sdoc
-  selenium-webdriver
-  simple_command
-  spring
-  spring-commands-rspec
-  sprockets
-  travis
-  turbolinks
-  uglifier
-  web-console
-  will_paginate
+  responders (= 3.0.0)
+  rspec-rails (= 4.0.0)
+  sass-rails (= 6.0.0)
+  sdoc (= 1.1.0)
+  selenium-webdriver (= 3.142.7)
+  simple_command (= 0.1.0)
+  spring (= 2.1.0)
+  spring-commands-rspec (= 1.0.4)
+  sprockets (= 4.0.0)
+  travis (= 1.8.13)
+  turbolinks (= 5.2.1)
+  uglifier (= 4.2.0)
+  web-console (= 4.0.1)
+  will_paginate (= 3.3.0)
 
 BUNDLED WITH
    2.1.4
